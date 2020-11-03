@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 19, 2020, 2:23:31 PM
+    Author     : karishma
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://mosonsgroup.in/home/images/a.jpg");
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(120, 120, 120);
+  opacity: 0.7;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: inline-block;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: white;
+}
+
+.nav-item:hover a {
+  color: darkgreen;
+}
+
+.logo img {
+  width: 200px;
+  vertical-align: middle;
+}
